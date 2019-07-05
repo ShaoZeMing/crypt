@@ -1,0 +1,31 @@
+{
+    "name": "shaozeming/crypt",
+    "description": "明文传输:数据签名/验签、密文传输:数据加/解密",
+    "require": {
+        "php": "^7.1.3",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "mockery/mockery": "^0.9.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShaoZeMing",
+            "email": "szm19920426@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShaoZeMing\\Crypt\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShaoZeMing\\Crypt\\Tests\\": "./tests"
+        }
+    }
+}
