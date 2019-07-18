@@ -43,7 +43,7 @@ class Signature
     {
 
         $array = array_filter($array, function ($item) {
-            return !is_null($item);
+            return !empty($item);
         });
 
         $array = array_map(function (&$item) {

@@ -40,7 +40,7 @@ Example:
 ```php
 use ShaoZeMing\Crypt\CryptService;
 
-$config = include($youerpath.'/crypt.php')
+$config = include($youerpath.'/crypt.php');
 
 $obj = new CryptService($config);
 
